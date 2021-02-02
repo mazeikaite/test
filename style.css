@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background-color: rgb(205, 209, 211);
+    font-family: 'Oswald', sans-serif;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+.form_login{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align:center ;
+    margin: auto;
+}
+.login_card{
+    text-align: center;
+}
+h6{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+input{
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 5px;
+    margin-bottom: 3px;
+    border-color: rgb(120, 120, 230);
+    
+}
+.welcome{
+    font-weight: 600;
+    font-size: 22px;
+}
+button{
+    background-color:rgb(120, 120, 230);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+table{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.action{
+    display: flex;
+    justify-content: center;
+   
+}
+.btn{
+    background-color:rgb(120, 120, 230);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 3px;
+}
+tr:nth-child(even) {
+    background-color:rgb(228, 222, 222);;
+}
+.new_directory{
+    margin-left: 10px;
+
+}
+p{
+    text-align: center;
+}
+.upload{
+    margin-right: 10px;
+    text-align: right;
+   
+}
+.upload_btn{
+background-color:rgb(120, 120, 230);
+}
+.create_card{
+    display: flex;
+    justify-content: space-between;
+}
+.logout{
+    text-align: right;
+    margin-right: 10px;
+}
